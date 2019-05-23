@@ -12,6 +12,26 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private int SID;
+
+    /** testing pull
+     * Get the value of SID
+     *
+     * @return the value of SID
+     */
+    public int getSID() {
+        return SID;
+    }
+
+    /**
+     * Set the value of SID
+     *
+     * @param SID new value of SID
+     */
+    public void setSID(int SID) {
+        this.SID = SID;
+    }
+
 
     /**
      * Get the value of name
